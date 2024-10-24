@@ -82,7 +82,7 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
 plt.tight_layout()
 st.pyplot(plt)
 
-st.subheader('Pairplot')
-fig = sns.pairplot(df, hue="species").fig
-plt.tight_layout()
-st.pyplot(fig)
+#st.subheader('Pairplot')
+#fig = sns.pairplot(df, hue="species").fig
+#plt.tight_layout()
+#st.pyplot(fig)
